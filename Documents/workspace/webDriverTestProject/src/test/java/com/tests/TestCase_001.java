@@ -27,7 +27,7 @@ public class TestCase_001  {
 		
 		@AfterMethod
 		public void afterMet(){
-			
+			driver.close();
 			
 		}
 		@Test
@@ -73,7 +73,7 @@ public class TestCase_001  {
 			Thread.sleep(3000);
 			driver.findElementByName("firstname").sendKeys("test10");
 			driver.findElementByName("lastname").sendKeys("testteacherqa10");
-			driver.findElementById("input-payment-email").sendKeys("testteacherqa12@test.com");
+			driver.findElementById("input-payment-email").sendKeys("testteacherqa13@test.com");
 			driver.findElementByName("telephone").sendKeys("7321232223");
 			driver.findElementById("input-payment-password").sendKeys("password");
 			driver.findElementById("input-payment-confirm").sendKeys("password");
