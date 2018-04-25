@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="55757" started-at="2018-04-25T14:17:39Z" finished-at="2018-04-25T14:18:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="55757" started-at="2018-04-25T14:17:39Z" finished-at="2018-04-25T14:18:35Z">
+      <class name="com.tests.TestCase_001">
+        <test-method status="PASS" signature="beforeMet()[pri:0, instance:com.tests.TestCase_001@3ffc5af1]" name="beforeMet" is-config="true" duration-ms="11026" started-at="2018-04-25T10:17:39Z" finished-at="2018-04-25T10:17:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMet -->
+        <test-method status="PASS" signature="testCase_01()[pri:0, instance:com.tests.TestCase_001@3ffc5af1]" name="testCase_01" duration-ms="44709" started-at="2018-04-25T10:17:50Z" finished-at="2018-04-25T10:18:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_01 -->
+        <test-method status="PASS" signature="afterMet()[pri:0, instance:com.tests.TestCase_001@3ffc5af1]" name="afterMet" is-config="true" duration-ms="0" started-at="2018-04-25T10:18:35Z" finished-at="2018-04-25T10:18:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMet -->
+      </class> <!-- com.tests.TestCase_001 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
